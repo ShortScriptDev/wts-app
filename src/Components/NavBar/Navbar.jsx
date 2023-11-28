@@ -1,10 +1,11 @@
 import React from 'react'
 import './navbar.css'
 
-const Navbar = () => {
+function Navbar(props){
   return (
     <div className="nav">
-        <h1>Nav Bar</h1>
+      <p class="feature-name">Category</p>
+      <i class="bi bi-list"></i>
     </div>
   )
 }

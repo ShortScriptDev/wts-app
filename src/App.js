@@ -1,11 +1,12 @@
-import {Feature, Navbar} from './Components';
-import {Features, Header} from './Containers';
+import {Feature} from './Components';
+import {Features, Header, Categories} from './Containers';
+import './app.css';
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Navbar/>
+      <Categories/>
       <div className="Gradient_bg">
         <Feature/>
       </div>

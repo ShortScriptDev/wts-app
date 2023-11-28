@@ -1,0 +1,28 @@
+.category{
+    width:90%;
+    height:80%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin:auto;
+    gap:2%;
+}
+.category-icon{
+    background-color: #5958B2;
+    min-width: 50px;
+    min-height:80px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.category-titles{
+    display: flex;
+    justify-content: center;
+    margin-top:10%;
+}
+.category-section{
+    margin:auto;
+    margin-left:0;
+    margin-right:0;
+}
