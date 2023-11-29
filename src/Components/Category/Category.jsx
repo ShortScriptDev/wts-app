@@ -6,7 +6,7 @@ function Category(props){
     <div className="category">
         <div class="category-section">
             <><p className="category-icon">cat1</p></>
-            <><p className="category-titles">Categor</p></>
+            <><p className="category-titles">Breakfast</p></>
             </div>
         <div class="category-section"><p className="category-icon">cat1</p><p className="category-titles">Lunch</p></div>
         <div class="category-section"><p className="category-icon">cat1</p><p className="category-titles">Dinner</p></div>

@@ -1,12 +1,12 @@
 import React from 'react';
 import './categories.css';
-import Navbar from '../../Components/NavBar/Navbar';
 import Category from '../../Components/Category/Category';
+import { CategoryMenu } from '../../Props';
 
 const Categories = () => {
   return (
     <div className="categories-container">
-      <Navbar/>
+      <CategoryMenu/>
       <Category/>
     </div>
   )

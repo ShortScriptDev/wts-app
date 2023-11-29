@@ -1,13 +1,13 @@
 import React from 'react'
 import './navbar.css'
 
-function Navbar(props){
+function PopularRecipes(props){
   return (
     <div className="nav">
-      <p class="feature-name">Category</p>
+      <p class="feature-name">Popular Recepies</p>
       <i class="bi bi-list"></i>
     </div>
   )
 }
 
-export default Navbar
+export default PopularRecipes

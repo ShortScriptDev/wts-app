@@ -1,0 +1,19 @@
+.featured-recipes{
+    width:100%;
+    height:20vh;
+}
+.featured-images{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width:90%;
+    height:90%;
+    margin:auto;
+}
+.featured-images img{
+    width:90%;
+    height:90%;
+    background-color: black;
+    margin:auto;
+    border-radius: 15px;
+    object-fit:fill;
+}

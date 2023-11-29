@@ -1,4 +1,3 @@
-import {Feature} from './Components';
 import {Features, Header, Categories} from './Containers';
 import './app.css';
 
@@ -7,10 +6,9 @@ function App() {
     <div className="App">
       <Header/>
       <Categories/>
-      <div className="Gradient_bg">
-        <Feature/>
-      </div>
       <Features />
+      <div className="Gradient_bg">
+      </div>
     </div>
   );
 }

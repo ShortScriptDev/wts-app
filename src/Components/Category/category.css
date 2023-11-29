@@ -11,6 +11,7 @@
     background-color: #5958B2;
     min-width: 50px;
     min-height:80px;
+    height:80px;
     border-radius:50%;
     display: flex;
     justify-content: center;
@@ -25,4 +26,11 @@
     margin:auto;
     margin-left:0;
     margin-right:0;
+}
+
+@media (min-width:820px){
+    .category-icon{
+        min-width: 50px;
+        min-height:160px;
+    }
 }
