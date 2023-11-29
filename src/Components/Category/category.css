@@ -9,13 +9,16 @@
 }
 .category-icon{
     background-color: #5958B2;
-    min-width: 50px;
-    min-height:80px;
+    max-width: 99%;
+    min-height:80%;
     height:80px;
     border-radius:50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size:50px;
+    color:white;
+    object-fit:cover;
 }
 .category-titles{
     display: flex;
@@ -30,7 +33,7 @@
 
 @media (min-width:820px){
     .category-icon{
-        min-width: 50px;
+        min-width: 60px;
         min-height:160px;
     }
 }

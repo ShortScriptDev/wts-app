@@ -17,8 +17,9 @@
 }
 .feature-name{
     width:50%;
-    font-size: 25px;
+    font-size: 17px;
     display: flex;
     align-items: center;
     padding-left:6%;
+    font-family: 'Play', sans-serif;
 }

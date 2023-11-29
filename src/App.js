@@ -1,3 +1,5 @@
+import { Nav } from './Components';
+import Recommended from './Components/Feature/Recommended';
 import {Features, Header, Categories} from './Containers';
 import './app.css';
 
@@ -7,6 +9,8 @@ function App() {
       <Header/>
       <Categories/>
       <Features />
+      <Recommended/>
+      <Nav/>
       <div className="Gradient_bg">
       </div>
     </div>

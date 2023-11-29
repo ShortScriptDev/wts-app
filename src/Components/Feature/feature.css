@@ -15,5 +15,25 @@
     background-color: black;
     margin:auto;
     border-radius: 15px;
-    object-fit:fill;
+    object-fit: cover;
+}
+.recommended{
+    width:100%;
+    height:23vh;
+}
+.recommended-images{
+    width:90%;
+    height:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin:auto;
+}
+.recommended-images img{
+    width:90%;
+    height:100%;
+    background-color: black;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 10px;
+    object-fit: cover;
 }

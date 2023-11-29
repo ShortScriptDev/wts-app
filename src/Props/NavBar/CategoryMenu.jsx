@@ -5,7 +5,7 @@ function CategoryMenu(props){
   return (
     <div className="nav">
       <p class="feature-name">Category</p>
-      <i class="bi bi-list"></i>
+      <i class="bi bi-list" ></i>
     </div>
   )
 }
