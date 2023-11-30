@@ -11,8 +11,6 @@ function App() {
       <Features />
       <Recommended/>
       <Nav/>
-      <div className="Gradient_bg">
-      </div>
     </div>
   );
 }

@@ -4,7 +4,7 @@ import '../NavBar/navbar.css'
 function RecommendedTitle(props){
   return (
     <div className="nav">
-      <p class="feature-name">Recommended</p>
+      <p className="feature-name">Recommended</p>
     </div>
   )
 }

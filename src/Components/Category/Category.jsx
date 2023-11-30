@@ -1,9 +1,10 @@
-import React from 'react'
-import './category.css'
+import React from 'react';
+import './category.css';
 
 function Category(props){
+ const catclass= 'category';
   return (
-    <div className="category">
+    <div className={` ${catclass} ${props.hidden ? props.isShow : "category"}`}>
         <div className="category-section">
             <img className="category-icon" src='https://images.pexels.com/photos/101533/pexels-photo-101533.jpeg?auto=compress&cs=tinysrgb&w=400' alt="breakfastimage"/>
             <><p className="category-titles">Breakfast</p></></div>
@@ -20,7 +21,7 @@ function Category(props){
           <img className="category-icon"src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=400" alt="italianimage"/>
           <p className="category-titles">Italian</p></div>
         <div className="category-section">
-          <img className="category-icon" src="https://npr.brightspotcdn.com/dims4/default/0de2487/2147483647/strip/true/crop/1024x631+0+26/resize/880x542!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fwunc%2Ffiles%2F201505%2Fsoul_food.jpg" alt=""soulfoodimage/>
+          <img className="category-icon" src="https://npr.brightspotcdn.com/dims4/default/0de2487/2147483647/strip/true/crop/1024x631+0+26/resize/880x542!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fwunc%2Ffiles%2F201505%2Fsoul_food.jpg" alt="soulfoodimage"/>
           <p className="category-titles">Soul Food</p></div>
         <div className="category-section">
           <img className="category-icon" src="https://images.pexels.com/photos/2611917/pexels-photo-2611917.jpeg?auto=compress&cs=tinysrgb&w=400" alt="chickenimage"/>
