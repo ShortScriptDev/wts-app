@@ -1,0 +1,7 @@
+.home{
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 10vh) !important;
+}

@@ -23,3 +23,6 @@
 .main-nav i:hover{
     color:orange;
 }
+.link{
+    text-decoration: none;
+}
