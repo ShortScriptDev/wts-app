@@ -4,7 +4,7 @@ import './category.css';
 function Category(props){
  const catclass= 'category';
   return (
-    <div className={` ${catclass} ${props.hidden ? props.isShow : "category"}`}>
+    <div className={` ${catclass} ${props.hidden ? "hidden" : "category"}`}>
         <div className="category-section">
             <img className="category-icon" src='https://images.pexels.com/photos/101533/pexels-photo-101533.jpeg?auto=compress&cs=tinysrgb&w=400' alt="breakfastimage"/>
             <><p className="category-titles">Breakfast</p></></div>
