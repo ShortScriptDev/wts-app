@@ -4,7 +4,7 @@ function CategoryMenu(props){
 
   return (
     <div className="nav">
-      <p className="feature-name">Category</p>
+      <p className="feature-name">Categories</p>
       <i className="bi bi-list" onClick={()=> {props.setHidden(!props.hidden)}}></i> 
     </div>
   )
