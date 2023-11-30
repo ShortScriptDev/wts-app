@@ -5,11 +5,10 @@ import '../Home/home.css'
  
  export default function SearchRecipes(){
     return(
-        <>
-        <SearchBar/>
-        <h2> Search Recipes </h2>
-        <Nav/>
-        </>
+        <div className="search-recipes-container">
+            <SearchBar/>
+            <Nav/>
+        </div>
     )
 }
 
