@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/wts-app/static/css/main.beaf20fc.css",
-    "main.js": "/wts-app/static/js/main.8dc824dc.js",
+    "main.js": "/wts-app/static/js/main.8751613f.js",
     "static/media/logo.png": "/wts-app/static/media/logo.effe9e8fa79e40d6545e.png",
     "index.html": "/wts-app/index.html",
     "main.beaf20fc.css.map": "/wts-app/static/css/main.beaf20fc.css.map",
-    "main.8dc824dc.js.map": "/wts-app/static/js/main.8dc824dc.js.map"
+    "main.8751613f.js.map": "/wts-app/static/js/main.8751613f.js.map"
   },
   "entrypoints": [
     "static/css/main.beaf20fc.css",
-    "static/js/main.8dc824dc.js"
+    "static/js/main.8751613f.js"
   ]
 }
