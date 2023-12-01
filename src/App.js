@@ -8,7 +8,7 @@ import SearchRecipes from './Pages/Explore/SearchRecipes';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/wts-app">
         <Routes>
           <Route index element={<Home/>}/>
           <Route path="/home" element={<Home/>}/>
