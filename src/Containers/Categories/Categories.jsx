@@ -5,15 +5,14 @@ import { CategoryMenu } from '../../Props';
 
 export const Context = React.createContext();
 
-const Categories = () => {
-  const [hidden, setHidden] = useState(true);
-  const catContClass = 'categories-container';
+export default function Categories({className}) {
+  const [hidden, setHidden] = useState(false);
+  //const catContClass = 'categories-container';
   return (
-    <div className={`${catContClass} ${hidden ? "hide" : "categories-container"}`}>
+    <div className={`${className} ${hidden ? "hide" : "categories-container"}`}>
       <CategoryMenu hidden={hidden} setHidden={setHidden}/>
       <Category hidden={hidden} setHidden={setHidden}/>
     </div>
   )
 }
 
-export default Categories

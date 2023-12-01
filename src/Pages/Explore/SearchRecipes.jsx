@@ -23,7 +23,8 @@ import Recommended from '../../Components/Feature/Recommended';
                         <p className="slide-dot"></p>
                     </div>
                 </div>
-                <Categories/>
+                <Categories className="categories-container"/>
+
                 <div className="featured-recipe">
                     <div className="recipe-info">
                         <img className="recipe-image" alt="recipeimage" src="https://placehold.co/400x400/000000/FFFFFF/png"/>

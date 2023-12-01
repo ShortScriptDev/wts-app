@@ -1,6 +1,5 @@
 import React from "react";
 import Nav from '../../Components/Nav/Nav'
-import Recommended from '../../Components/Feature/Recommended'
 import '../Home/home.css'
 import './profile.css'
 
@@ -47,7 +46,15 @@ import './profile.css'
                     </div>
                 </div>
             </div>
-            <Recommended/>
+            <div className="recommend-nav">
+                <p className="feature-recommend-name">Recommended</p>
+            </div>
+            <div className="recommended">
+                <div className="recommended-images">
+                <img src="https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg?auto=compress&cs=tinysrgb&w=300" alt="recom1"/>
+                <img src="https://images.pexels.com/photos/803963/pexels-photo-803963.jpeg?auto=compress&cs=tinysrgb&w=300" alt="recom2"/>
+            </div>
+    </div>
             <Nav/>
         </div>
     )

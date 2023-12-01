@@ -1,6 +1,7 @@
 import React from 'react';
 import './feature.css';
 import { RecommendedTitle } from "../../Props";
+//import Nav from '../../Components/Nav/Nav';
 
 const Recommended = () => {
   return (

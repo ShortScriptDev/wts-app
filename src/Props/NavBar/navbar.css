@@ -23,24 +23,22 @@
 }
 .feature-name{
     width:50%;
-    font-size: 148%;
+    font-size: 128%;
     display: flex;
     align-items: center;
     padding-left:6%;
     font-family: 'Play', sans-serif;
-}
-.feature-recommend-name{
-    width:50%;
-    font-size: 148%;
-    display: flex;
-    align-items: center;
-    padding-left:6%;
-    font-family: 'Play', sans-serif;
-    color:black;
 }
 .show{
     display:block;
 }
 .notshown{
     display:hidden;
+}
+@media (min-width:768px){
+
+    .feature-name{
+        width:50%;
+        font-size: 148%;
+    }
 }
