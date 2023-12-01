@@ -3,8 +3,8 @@ import '../NavBar/navbar.css'
 
 function RecommendedTitle(props){
   return (
-    <div className="nav">
-      <p className="feature-name">Recommended</p>
+    <div className="recommend-nav">
+      <p className="feature-recommend-name">Recommended</p>
     </div>
   )
 }

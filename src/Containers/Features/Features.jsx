@@ -2,7 +2,6 @@ import React, {useState, createContext} from 'react';
 import './features.css';
 import { PopularRecipes } from '../../Props';
 import { Feature } from '../../Components';
-import RecommendedTitle from '../../Props/Titles/Recommendedtitle';
 
 export const AppContext = createContext();
 const Features = () => {
@@ -13,7 +12,6 @@ const Features = () => {
     <div className={`${popContClass}`}>
       <PopularRecipes/>
       <Feature/>
-      <RecommendedTitle/>
     </div>
     </AppContext.Provider>
   )

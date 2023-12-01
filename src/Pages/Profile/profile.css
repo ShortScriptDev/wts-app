@@ -16,7 +16,7 @@
     row-gap: 10px;
 }
 .profile h2{
-    font-size:50px;
+    font-size:300%;
     color:white;
     font-family: 'Play', sans-serif;
 }
@@ -37,9 +37,20 @@
     margin:auto;
     padding-top:2%;
 }
+.profile-header-info h3{
+    font-size:130%;
+}
+.profile-bio{
+    font-size:110%;
+}
+.profile-headers h3{
+    font-size:120%;
+}
+.profile-headers p{
+    font-size:120%;
+}
 .profile-image{
-    width:80px;
-    height:80px;
+    width: 80%;
     background-color: black;
     border-radius: 60%;
 }
@@ -99,8 +110,7 @@
     padding-bottom:5%;
 }
 .favorites-images{
-    width:80px;
-    height:80px;
+    width: 24%;
     background-color: black;
 }
 .recipe-info{
@@ -110,12 +120,13 @@
     padding-right:2%;
     font-family: 'Play', sans-serif;
 }
-.recipe-description{
+.profile-recipe-description{
+    font-size:110%;
     margin:auto;
+    color:white;
 }
 .recipe-image{
-    width:80px;
-    height:80px;
+    width: 80%;
     background-color: black;
 }
 .more-link{
@@ -135,4 +146,10 @@
     padding-left:6%;
     font-family: 'Play', sans-serif;
     color:white;
+}
+.desserts-feature-description{
+    font-size:107%;
+}
+.recipe-description{
+    font-size:110%;
 }

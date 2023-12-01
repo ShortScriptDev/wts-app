@@ -1,7 +1,7 @@
 import React from 'react'
 import './navbar.css'
-function CategoryMenu(props){
 
+function CategoryMenu(props){
   return (
     <div className="nav">
       <p className="feature-name">Categories</p>

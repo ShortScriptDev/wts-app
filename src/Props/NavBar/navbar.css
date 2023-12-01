@@ -3,7 +3,13 @@
     height:10vh;
     position: relative;
     display:flex;
-    background-color:white;
+    color:black;
+}
+.recommend-nav{
+    width:100%;
+    height:10vh;
+    position: relative;
+    display:flex;
     color:black;
 }
 .bi-list{
@@ -17,11 +23,20 @@
 }
 .feature-name{
     width:50%;
-    font-size: 17px;
+    font-size: 148%;
     display: flex;
     align-items: center;
     padding-left:6%;
     font-family: 'Play', sans-serif;
+}
+.feature-recommend-name{
+    width:50%;
+    font-size: 148%;
+    display: flex;
+    align-items: center;
+    padding-left:6%;
+    font-family: 'Play', sans-serif;
+    color:black;
 }
 .show{
     display:block;

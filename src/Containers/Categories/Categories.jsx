@@ -11,7 +11,7 @@ const Categories = () => {
   return (
     <div className={`${catContClass} ${hidden ? "hide" : "categories-container"}`}>
       <CategoryMenu hidden={hidden} setHidden={setHidden}/>
-      <Category hidden={hidden} />
+      <Category hidden={hidden} setHidden={setHidden}/>
     </div>
   )
 }

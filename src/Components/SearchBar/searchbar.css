@@ -12,7 +12,7 @@
     border:none;
     font-size:20px;
     text-align: center;
-    font-family: 'Play', sans-serif;;
+    font-family: 'Play', sans-serif;
 }
 input[type="search"]::placeholder {
     color:lightgray;
