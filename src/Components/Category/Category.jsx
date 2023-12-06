@@ -1,7 +1,10 @@
 import React from 'react';
 import './category.css';
+import { Link } from 'react-router-dom';
+//import {useState} from 'react';
 
 function Category(props){
+//  const [clicked, setClicked] = useState();
  const catclass= 'category';
   return (
     <div className={` ${catclass} ${props.hidden ? "hidden" : "category"}`}>
@@ -24,8 +27,11 @@ function Category(props){
           <img className="category-icon" src="https://npr.brightspotcdn.com/dims4/default/0de2487/2147483647/strip/true/crop/1024x631+0+26/resize/880x542!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fwunc%2Ffiles%2F201505%2Fsoul_food.jpg" alt="soulfoodimage"/>
           <p className="category-titles">Soul Food</p></div>
         <div className="category-section">
+          <Link className="link" to="/recipesearch" onClick={console.log('chicken')}>
           <img className="category-icon" src="https://images.pexels.com/photos/2611917/pexels-photo-2611917.jpeg?auto=compress&cs=tinysrgb&w=400" alt="chickenimage"/>
-          <p className="category-titles">Chicken</p></div>
+          </Link>
+          <p className="category-titles">Chicken</p>
+          </div>
         <div className="category-section">
           <img className="category-icon" src="https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=400" alt="heartyimage"/>
           <p className="category-titles">Hearty</p></div>

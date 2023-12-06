@@ -2,6 +2,7 @@ import React from "react";
 import Nav from '../../Components/Nav/Nav'
 import '../Home/home.css'
 import './profile.css'
+import { Link } from 'react-router-dom';
 
  export default function Profile(){
     return(
@@ -25,7 +26,8 @@ import './profile.css'
                 <div>
                     <div className="profile-headers">
                         <h3>Favorite Recipes</h3>
-                        <p>More</p>
+                        <Link className="link" to="/myfavoriterecipes"><p>More</p></Link>  
+
                     </div>
                     <p className="nofavorites">You haven't favorited any recipes yet.</p>
                     <div className="profile-favorites">

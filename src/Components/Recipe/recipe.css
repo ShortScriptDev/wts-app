@@ -1,0 +1,19 @@
+.recipe-style{
+    width:100%;
+    height:20vh;
+    display:grid;
+    grid-template-columns: 35% 65%;
+    padding: 3%;
+    padding-bottom:5%;
+    padding-bottom: 35%;
+}
+.recipe-image{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+}
+.title-info{
+ height:100%;
+ padding: 8%;
+}

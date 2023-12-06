@@ -1,10 +1,10 @@
-import './app.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 //import { HashRouter as Router} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import Profile from './Pages/Profile/Profile'
 import FavoriteRecipes from './Pages/LikedRecipes/FavoriteRecipes';
 import SearchRecipes from './Pages/Explore/SearchRecipes';
+import Searched from './Pages/Searched/Searched';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
           <Route path="/profile" element={<Profile/>}/>
           <Route path="/myfavoriterecipes" element={<FavoriteRecipes/>}/>
           <Route path="/recipes" element={<SearchRecipes/>}/>
+          <Route path="/recipesearch" element={<Searched/>}/>
         </Routes>
       </BrowserRouter>
     </div>
