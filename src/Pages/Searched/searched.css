@@ -1,4 +1,13 @@
 .searched-recipes-header{
-    height: 30vh;
-    
+    height: 16rem;
+}
+.searchbtn{
+    font-size: 1.3rem;
+    width: 6rem;
+    height: 2rem;
+    margin-top: 0.8rem;
+    border-radius: 2rem;
+}
+.searchform{
+    text-align: center;
 }
