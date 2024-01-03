@@ -5,7 +5,6 @@ import {useNavigate } from 'react-router-dom';
 
 const RecipeList = ({ title, image, calories, ingredients }) => {
     const navigate = useNavigate();
-  
     const handleClick = () => {
       // Navigate to a new page with recipe details
       navigate(`/recipes/${title}`, { state: { title, image, calories, ingredients } });
