@@ -40,9 +40,9 @@
     .category-icon{
         width: 11rem;
         height: 10rem;
+        background-color: white;
     }
 }
 .hidden{
     display:none;
 }
-
