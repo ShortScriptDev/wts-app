@@ -1,3 +1,8 @@
+.slider-img1 {
+    display: flex;
+    width: 90%;
+    height: 17rem;
+}
 .search-recipes-container{
     width:100%;
     overflow-y: auto;
@@ -9,38 +14,39 @@
     padding-top:4vh;
     background-color: #5958B2;
     width:100%;
-    height:50vh;
+    height:23rem;
 }
 .logo-container{
     margin:auto;
     width:25%;
+    display: flex;
 }
-.logo-container img{
-    width:100%;
-    height:15vh;
+.logo-container img {
+    width: 7rem;
+    margin: auto;
 }
-.search-page-search-bar{
-    display:flex;
-    margin:auto;
-    width:90%;
-    height:7vh;
+.search-page-search-bar {
+    display: flex;
+    margin: auto;
+    width: 29%;
+    height: 5vh;
     border-radius: 10px;
-    border:none;
-    font-size:20px;
+    border: none;
+    font-size: 20px;
     text-align: left;
-    padding-left:10px;
+    padding-left: 10px;
     font-family: 'Play', sans-serif;
 }
 .slider{
     width:100%;
-    height:35vh;
+    height:fit-content;
     padding-top:3vh;
 }
 .slider-img1{
     display:flex;
-    width:90%;
-    height:27vh;
-    background-image: url("https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=300");
+    width: 73%;
+    height:15rem;
+    background-image: url("https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=800");
     background-size:cover;
     background-repeat: no-repeat;
     margin:auto;
@@ -72,6 +78,7 @@
     width: 80%;
     font-size: 20px;
     text-align: center;
+    background-color: #0000005e;
 }
 .featured-recipe{
     margin:auto;
@@ -84,12 +91,13 @@
 }
 .recipe-description{
     color:black;
+    margin: auto;
 }
 .desserts-feature{
     margin:auto;
     border-radius: 20px;
     width:90%;
-    height:20vh;
+    height: fit-content;
     background-color: rgb(245, 242, 95);
     display:grid;
     grid-template-columns: 60% 40%;
@@ -114,4 +122,27 @@
     height:100%;
     justify-content: center;
     align-items: center;
+}
+@media (max-width:850px){
+    .slider-img1 {
+        height: 27vh;
+    }
+    .search-page-search-bar{
+        display:flex;
+        margin:auto;
+        width:90%;
+        height:7vh;
+        border-radius: 10px;
+        border:none;
+        font-size:20px;
+        text-align: left;
+        padding-left:10px;
+        font-family: 'Play', sans-serif;
+    }
+    .slider-img1{
+        width:90%;
+    }
+    .desserts-feature{
+        height:20vh;
+    }
 }

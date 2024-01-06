@@ -1,6 +1,6 @@
 .category{
     width:90%;
-    height:80%;
+    height:fit-content;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -19,22 +19,27 @@
     font-size:50px;
     color:white;
     object-fit:cover;
+    margin: auto;
 }
+
 .category-titles{
     display: flex;
     justify-content: center;
     margin-top:10%;
+    margin:auto;
 }
 .category-section{
     margin:auto;
     margin-left:0;
     margin-right:0;
+    display: flex;
+    flex-flow: column;
 }
 
 @media (min-width:820px){
     .category-icon{
-        min-width: 60px;
-        min-height:160px;
+        width: 11rem;
+        height: 10rem;
     }
 }
 .hidden{
